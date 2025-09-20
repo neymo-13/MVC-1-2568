@@ -19,6 +19,8 @@ public class StudentDashboardView extends JFrame {
 	private JTable gradesTable;
 	private DefaultTableModel tableModel;
 	private JButton registerButton;
+	private JLabel ageLabel;
+	private JLabel emailLabel;
 
 	public StudentDashboardView() {
 		setTitle("Student Dashboard - My Profile");
@@ -39,9 +41,17 @@ public class StudentDashboardView extends JFrame {
 		studentNameLabel = new JLabel("...");
 		infoPanel.add(studentNameLabel);
 
+		infoPanel.add(new JLabel("Age:"));
+		ageLabel = new JLabel("...");
+		infoPanel.add(ageLabel);
+
 		infoPanel.add(new JLabel("School:"));
 		schoolLabel = new JLabel("...");
 		infoPanel.add(schoolLabel);
+
+		infoPanel.add(new JLabel("Email:"));
+		emailLabel = new JLabel("...");
+		infoPanel.add(emailLabel);
 
 		add(infoPanel, BorderLayout.NORTH);
 
@@ -68,6 +78,8 @@ public class StudentDashboardView extends JFrame {
 			studentIdLabel.setText(student.getStudentId());
 			studentNameLabel.setText(student.getPrefix() + " " + student.getFirstName() + " " + student.getLastName());
 			schoolLabel.setText(student.getCurrentSchool());
+			ageLabel.setText(String.valueOf(student.getAge()));
+        	emailLabel.setText(student.getEmail());
 		}
 	}
 

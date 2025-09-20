@@ -16,7 +16,7 @@ public class CourseRegistrationView extends JFrame {
 
 	public CourseRegistrationView() {
 		setTitle("Course Registration");
-		setSize(600, 400);
+		setSize(800, 600);
 		setLocationRelativeTo(null);
 		setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
 		initComponents();
