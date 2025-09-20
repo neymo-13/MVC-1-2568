@@ -78,9 +78,9 @@
    		* เปิดหน้าต่างใหม่แสดงข้อมูลนักเรียน
  	* Result: Admin เห็นข้อมูลส่วนตัวและรายวิชาพร้อมเกรดทั้งหมด
 4. การกรอกเกรด (Grade Entry)
-	* Action: เลือกวิชาจาก Dropdown → กด “แสดงรายชื่อ”
+	* Action: เลือกวิชาจาก Dropdown
 	* Behind the Scenes:
-  		* Controller รับรหัสวิชาที่เลือก → ดึงนักเรียนที่ลงทะเบียนจาก `RegisteredSubjectRepository`
+  		* Controller รับรหัสวิชาที่เลือก จากนั้นไปดึงนักเรียนที่ลงทะเบียนจาก `RegisteredSubjectRepository`
   		* เปิดหน้า GradeEntryView พร้อมส่งรายชื่อนักเรียน
 	* Result: Admin เห็นรายชื่อนักเรียนพร้อมช่องกรอกเกรด
 5. การบันทึกเกรด (Save Grades)
@@ -119,14 +119,6 @@
 	* Result:
   		* สำเร็จ: แสดงข้อความ “Registration successful!” จากนั้นตารางวิชาอัปเดต (เกรดว่าง)
   		* ล้มเหลว: แจ้งเตือน และอยู่ที่หน้า `CourseRegistrationView`
-
-
-
-
-
-
-
-
 
 
 
