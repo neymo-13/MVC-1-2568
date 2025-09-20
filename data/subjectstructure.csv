@@ -1,0 +1,19 @@
+curriculumId,curriculumName,department,subjectId,semester
+10000001,Computer Science,Science,05501001,1
+10000001,Computer Science,Science,90690001,1
+10000001,Computer Science,Science,05501004,1
+10000001,Computer Science,Science,05501002,2
+10000001,Computer Science,Science,05501005,2
+10000001,Computer Science,Science,90690003,2
+10000002,Computer Engineering,Engineering,05501001,1
+10000002,Computer Engineering,Engineering,90690001,1
+10000002,Computer Engineering,Engineering,05501007,1
+10000002,Computer Engineering,Engineering,05501002,2
+10000002,Computer Engineering,Engineering,05501006,2
+10000002,Computer Engineering,Engineering,90690002,2
+10000003,Information Technology,Technology,05501004,1
+10000003,Information Technology,Technology,90690001,1
+10000003,Information Technology,Technology,05501001,1
+10000003,Information Technology,Technology,90690002,2
+10000003,Information Technology,Technology,05501005,2
+10000003,Information Technology,Technology,90690003,2

@@ -1,0 +1,6 @@
+subjectId,subjectName,credits,instructor,prerequisiteSubjectId
+05501002,Data Structures,4,Dr. Simon Carter,05501001
+05501003,Operating Systems,3,Prof. Jane Wallace,05501002
+05501005,Database Systems,3,Dr. Samuel Miles,05501002
+05501006,Computer Networks,3,Mr. Steve Porter,05501002
+05501007,Object-Oriented Programming,3,Dr. Ben Song,05501001

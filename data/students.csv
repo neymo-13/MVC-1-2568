@@ -1,0 +1,11 @@
+studentId,prefix,firstName,lastName,birthDate,school,email,courseId
+69000001,Mr,Peter,Smith,2004-05-21,Suankularb Wittayalai,peter.s@school.edu,10000001
+69000002,Ms,Susan,Johnson,2003-11-03,Horwang,susan.j@example.com,10000001
+69000003,Mr,Tom,Williams,2004-01-14,Bodindecha,tom.w@example.com,10000001
+69000004,Mrs,Pamela,Brown,2005-02-28,Satriwitthaya,pam.b@example.com,10000002
+69000005,Ms,Natalie,Jones,2004-09-10,Triam Udom Suksa,natalie.j@example.com,10000002
+69000006,Mr,Vincent,Garcia,2003-12-15,Sarasit Pittayalai,vincent.g@example.com,10000002
+69000007,Ms,Prim,Miller,2004-03-22,Suksanari,prim.m@example.com,10000003
+69000008,Mr,Samuel,Davis,2003-08-08,Debsirin,samuel.d@example.com,10000003
+69000009,Ms,Vicky,Wilson,2004-06-18,Benchamarachutit,vicky.w@example.com,10000003
+69000010,Mr,Chad,Moore,2000-02-10,Suankularb Wittayalai,chad.m@example.com,10000001
